@@ -32,7 +32,7 @@
         "interactive (default)",
         "static",
         "booster",
-        "dynamic",
+        "dynamic"
       ]
     },
     {
@@ -41,7 +41,7 @@
         "noop",
         "deadline",
         "maple",
-        "cfq (Default)",
+        "cfq (Default)"
       ]
     },
 	"Disabled Samsung security features",
@@ -79,7 +79,7 @@
          "Samsung A10 1.2A input charging current feature still depends on Eureka dtbo. Will fix it on next update",
  	 "Further overclocked BIG cores from 2184 MHz to 2288 MHz and LITTLE cores from 1690 MHz to 1794 MHz.",
  	 "Fixed wrongly set GPU throttling frequencies.",
- 	 "Updated WireGuard vpn driver to latest version - v1.0.20210606,"
+ 	 "Updated WireGuard vpn driver to latest version - v1.0.20210606.",
  	 "Some other minor optimizations."
       ]
     },
@@ -99,7 +99,7 @@
          "Samsung A10 1.2A input charging current feature still depends on Eureka dtbo. Will fix it on next update",
  	 "Further overclocked BIG cores from 2184 MHz to 2288 MHz and LITTLE cores from 1690 MHz to 1794 MHz.",
  	 "Fixed wrongly set GPU throttling frequencies.",
- 	 "Updated WireGuard vpn driver to latest version - v1.0.20210606,"
+ 	 "Updated WireGuard vpn driver to latest version - v1.0.20210606.",
  	 "Some other minor optimizations."
       ]
     }
