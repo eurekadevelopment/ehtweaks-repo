@@ -32,7 +32,7 @@
         "interactive (default)",
         "static",
         "booster",
-        "dynamic",
+        "dynamic"
       ]
     },
     {
@@ -41,7 +41,7 @@
         "noop",
         "deadline",
         "maple",
-        "cfq (Default)",
+        "cfq (Default)"
       ]
     },
 	"Disabled Samsung security features",
