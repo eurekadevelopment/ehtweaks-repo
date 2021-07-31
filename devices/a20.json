@@ -64,12 +64,30 @@
   ],
   "downloads": [
     {
-      "name": "R7.5",
+      "name": "R7.5-enforcing",
       "description": "<b>Only for <i>Q vendor</i> ROMs</b>",
       "url": "https://raw.githubusercontent.com/eurekadevelopment/ehtweaks-repo/master/zips/Eureka_R7.5_A205_enforcing_Q_R.zip",
       "md5sum": "0e76a0380dda952418e0e5cb138e30b1",
-      "url2": "https://raw.githubusercontent.com/eurekadevelopment/ehtweaks-repo/master/zips/Eureka_R7.5_A205_permissive_Q_R.zip",
-      "md5sum2": "935cb0040746548286c82a652b8f06f4",
+      "install_method": "mkdir /sdcard/EurekaKernel && cp $FILE /sdcard/EurekaKernel",
+      "changelog": [
+         "Upstream Linux Kernel Version from 4.4.270 to 4.4.277",
+         "Enabled back 208 MHz frequency for big and little cores.",
+         "DTB is now used to customize Eureka features such as CPU and GPU frequencies.",
+         "DTBO is only used to disable dm-verity as from now. You can restore stock dtbo if you have slow charging issue.",
+         "Added a new flashlight control driver which will fix low flashlight brightness issue",
+         "Imported latest Samsung updates from A305F R kernel source.",
+         "Samsung A10 1.2A input charging current feature still depends on Eureka dtbo. Will fix it on next update",
+ 	 "Further overclocked BIG cores from 2184 MHz to 2288 MHz and LITTLE cores from 1690 MHz to 1794 MHz.",
+ 	 "Fixed wrongly set GPU throttling frequencies.",
+ 	 "Updated WireGuard vpn driver to latest version - v1.0.20210606,"
+ 	 "Some other minor optimizations."
+      ]
+    },
+    {
+      "name": "R7.5-permissive",
+      "description": "<b>Only for <i>Q vendor</i> ROMs</b>",
+      "url": "https://raw.githubusercontent.com/eurekadevelopment/ehtweaks-repo/master/zips/Eureka_R7.5_A205_permissive_Q_R.zip",
+      "md5sum": "935cb0040746548286c82a652b8f06f4",
       "install_method": "mkdir /sdcard/EurekaKernel && cp $FILE /sdcard/EurekaKernel",
       "changelog": [
          "Upstream Linux Kernel Version from 4.4.270 to 4.4.277",
