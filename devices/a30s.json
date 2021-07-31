@@ -1,0 +1,90 @@
+{
+  "name": "<b><font color=\"#FFFFFF\">EurekaKernel</font></b>",
+  "short_description": "A kernel by <b>Eureka Team</b>",
+  "long_description": "Welcome to <b>EurekaKernel</b>! <br><br>We're kernel developers for Samsung Galaxy A10 ~ A40.",
+  "logo": "https://raw.githubusercontent.com/eurekadevelopment/ehtweaks-repo/master/logo.png",
+  "xda": "https://forum.xda-developers.com/t/kernel-custom-eureka-kernel-for-all-variants-of-galaxy-a10-for-q-based-vendor.4159503/",
+  "paypal": "https://www.paypal.me/chaturbaij",
+  "features": [
+    {
+      "name": "CPU Governors",
+      "items": [
+        "smartmax_eps",
+        "smartmax",
+        "intelliactive",
+        "blu_active",
+        "darkness",
+        "conservative",
+        "ondemand",
+        "userspace",
+        "powersave",
+        "schedutil",
+        "lionheart",
+        "bioshock",
+        "interactive (Default)",
+        "performance"
+      ]
+    },
+    {
+      "name": "GPU Governors",
+      "items": [
+        "default",
+        "interactive (default)",
+        "static",
+        "booster",
+        "dynamic",
+      ]
+    },
+    {
+      "name": "I/O Schedulers",
+      "items": [
+        "noop",
+        "deadline",
+        "maple",
+        "cfq (Default)",
+      ]
+    },
+	"Disabled Samsung security features",
+	"Overclocked CPU as follows: \nbig Cores: from 1768 MHz to 2184 MHz.​ \nLITTLE Cores: from 1586 MHz to 1690 MHz.​",
+	"Underclocked CPU as follows: \nbig Cores: from 936 MHz to 312 MHz.​ \nLITTLE Cores: from 839 MHz to 343 MHz.​",
+	"Added GPU thermal and voltage control",
+	"Added latest boeffla wl blocker V 1.1.0 and disabled some wakelocks",
+	"Network speed improvement",
+	"Enable zram support and set default compressor as lz4.",
+	"Switch to a lower charging voltage more quickly.",
+	"GPU max frequency overclocked from 845 MHz to 1300 MHz",
+	"Implemented Dynamic FSync 2.0",
+	"Implemented a custom hotplug driver to enhance battery management",
+	"Implemented Power Suspend driver",
+	"High torch brightness on custom roms",
+	"Has Spectrum support",
+	"Automatic detection of magisk",
+	"Upstreamed kernel version from 4.4.177 to 4.4.270",
+	"Built with Proton Clang 13 toolchain with LTO. Reason: Better performance"
+  ],
+  "downloads": [
+    {
+      "name": "R7.5",
+      "description": "<b>Only for <i>Q vendor</i> ROMs</b>",
+      "url": "https://raw.githubusercontent.com/eurekadevelopment/ehtweaks-repo/master/zips/Eureka_R7.5_A307_enforcing_Q_R.zip",
+      "md5sum": "0fc536276e5d9845d9751ebbfdfd8d1a",
+      "url2": "https://raw.githubusercontent.com/eurekadevelopment/ehtweaks-repo/master/zips/Eureka_R7.5_A307_permissive_Q_R.zip",
+      "md5sum2": "200d18813b5e9ce72022b8b162e370b6",
+      "install_method": "mkdir /sdcard/EurekaKernel && cp $FILE /sdcard/EurekaKernel",
+      "changelog": [
+         "Upstream Linux Kernel Version from 4.4.270 to 4.4.277",
+         "Enabled back 208 MHz frequency for big and little cores.",
+         "DTB is now used to customize Eureka features such as CPU and GPU frequencies.",
+         "DTBO is only used to disable dm-verity as from now. You can restore stock dtbo if you have slow charging issue.",
+         "Added a new flashlight control driver which will fix low flashlight brightness issue",
+         "Imported latest Samsung updates from A305F R kernel source.",
+         "Samsung A10 1.2A input charging current feature still depends on Eureka dtbo. Will fix it on next update",
+ 	 "Further overclocked BIG cores from 2184 MHz to 2288 MHz and LITTLE cores from 1690 MHz to 1794 MHz.",
+ 	 "Fixed wrongly set GPU throttling frequencies.",
+ 	 "Updated WireGuard vpn driver to latest version - v1.0.20210606,"
+ 	 "Some other minor optimizations."
+      ]
+    }
+    
+  ]
+}
