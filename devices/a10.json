@@ -29,7 +29,7 @@
       "name": "GPU Governors",
       "items": [
         "default",
-        "interactive (default)",
+        "interactive (Default)",
         "static",
         "booster",
         "dynamic"
@@ -44,6 +44,9 @@
         "cfq (Default)"
       ]
     },
+    {
+      "name": "Additional features",
+      "items": [
 	"Disabled Samsung security features",
 	"Overclocked CPU as follows: \nbig Cores: from 1768 MHz to 2184 MHz.​ \nLITTLE Cores: from 1586 MHz to 1690 MHz.​",
 	"Underclocked CPU as follows: \nbig Cores: from 936 MHz to 312 MHz.​ \nLITTLE Cores: from 839 MHz to 343 MHz.​",
@@ -55,17 +58,19 @@
 	"GPU max frequency overclocked from 845 MHz to 1300 MHz",
 	"Implemented Dynamic FSync 2.0",
 	"Implemented a custom hotplug driver to enhance battery management",
-	"Implemented Power Suspend driver",
+	"Implemented Power Suspend v1.8 driver",
 	"High torch brightness on custom roms",
 	"Has Spectrum support",
 	"Automatic detection of magisk",
-	"Upstreamed kernel version from 4.4.177 to 4.4.270",
+	"Upstreamed kernel version from 4.4.177 to 4.4.277",
 	"Built with Proton Clang 13 toolchain with LTO. Reason: Better performance"
+       ]
+     },
   ],
   "downloads": [
     {
-      "name": "R7.5-enforcing",
-      "description": "<b>Only for <i>Q Vendor Image</i> ROMs</b>",
+      "name": "R7.5 - enforcing",
+      "description": "<b>Only for <i>Q Vendor Based</i> ROMs</b>",
       "url": "https://raw.githubusercontent.com/eurekadevelopment/ehtweaks-repo/master/zips/Eureka_R7.5_A105_enforcing_Q_R.zip",
       "md5sum": "3d3ff9c82a903c788e9e357c077ec75d",
       "install_method": "mkdir -p /sdcard/EurekaKernel && cp $FILE /sdcard/EurekaKernel",
@@ -84,8 +89,8 @@
       ]
       },
     {
-      "name": "R7.5-permissive",
-      "description": "<b>Only for <i>Q Vendor Image</i> ROMs</b>",
+      "name": "R7.5 - permissive",
+      "description": "<b>Only for <i>Q Vendor Based</i> ROMs</b>",
       "url": "https://raw.githubusercontent.com/eurekadevelopment/ehtweaks-repo/master/zips/Eureka_R7.5_A105_permissive_Q_R.zip",
       "md5sum": "71f3ffb1d1c7e8fba44083f3ad103b75",
       "install_method": "mkdir -p /sdcard/EurekaKernel && cp $FILE /sdcard/EurekaKernel",
