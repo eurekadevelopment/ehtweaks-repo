@@ -64,45 +64,51 @@
   ],
   "downloads": [
     {
-      "name": "R7.5-enforcing",
-      "description": "<b>Only for <i>Q vendor</i> ROMs</b>",
-      "url": "https://raw.githubusercontent.com/eurekadevelopment/ehtweaks-repo/master/zips/Eureka_R7.5_A307_enforcing_Q_R.zip",
-      "md5sum": "0fc536276e5d9845d9751ebbfdfd8d1a",
-      "install_method": "mkdir -p /sdcard/EurekaKernel && cp $FILE /sdcard/EurekaKernel",
+      "name": "Eureka Kernel Rev 7.5 (Q/R)",
+      "description": "<b>Only for <i>Q Vendor Based</i> ROMs</b>",
+      "url": "https://github.com/Chatur27/Eureka-Kernel-Exynos7885-Q-R/releases/download/R7.5/Eureka_R7.5_A307_enforcing_Q_R.zip",
+      "md5sum": "357fef411e77771ddb168226fbbcad17",
+      "filename":"Eureka_R7.5_A307_enforcing_Q_R.zip",
+       "url2": "https://github.com/Chatur27/Eureka-Kernel-Exynos7885-Q-R/releases/download/R7.5/Eureka_R7.5_A307_permissive_Q_R.zip",
+      "md5sum2": "46865e8d4f5f9d7e7a07b5e26f136536",
+      "filename2":"Eureka_R7.5_A307_permissive_Q_R.zip",
       "changelog": [
          "Upstream Linux Kernel Version from 4.4.270 to 4.4.277",
          "Enabled back 208 MHz frequency for big and little cores.",
          "DTB is now used to customize Eureka features such as CPU and GPU frequencies.",
          "DTBO is only used to disable dm-verity as from now. You can restore stock dtbo if you have slow charging issue.",
          "Added a new flashlight control driver which will fix low flashlight brightness issue",
-         "Imported latest Samsung updates from A305F R kernel source.",
+         "Imported latest Samsung updates from A307F R kernel source.",
          "Samsung A10 1.2A input charging current feature still depends on Eureka dtbo. Will fix it on next update",
  	 "Further overclocked BIG cores from 2184 MHz to 2288 MHz and LITTLE cores from 1690 MHz to 1794 MHz.",
  	 "Fixed wrongly set GPU throttling frequencies.",
- 	 "Updated WireGuard vpn driver to latest version - v1.0.20210606",
+ 	 "Updated WireGuard vpn driver to latest version - v1.0.20210606.",
  	 "Some other minor optimizations."
       ]
-    },
-    {
-      "name": "R7.5-permissive",
-      "description": "<b>Only for <i>Q vendor</i> ROMs</b>",
-      "url": "https://raw.githubusercontent.com/eurekadevelopment/ehtweaks-repo/master/zips/Eureka_R7.5_A307_permissive_Q_R.zip",
-      "md5sum": "200d18813b5e9ce72022b8b162e370b6",
-      "install_method": "mkdir -p /sdcard/EurekaKernel && cp $FILE /sdcard/EurekaKernel",
+      },
+      {
+      "name": "Eureka Kernel Rev 7.5 (R)",
+      "description": "<b>Only for <i>R Vendor Based</i> ROMs</b>",
+      "url": "https://github.com/Chatur27/Eureka-Kernel-Exynos7885-Q-R/releases/download/R7.5r/Eureka_R7.5_A307_enforcing_R.zip",
+      "filename": "Eureka_R7.5_A307_enforcing_R.zip",
+      "md5sum": "7433769a896c15209afaa6ef390a0447",
+       "url2": "https://github.com/Chatur27/Eureka-Kernel-Exynos7885-Q-R/releases/download/R7.5r/Eureka_R7.5_A307_permissive_R.zip",
+      "filename2": "Eureka_R7.5_A307_permissive_R.zip",
+      "md5sum2": "143cf58393e84daec80b8a1dbd33b84c",
       "changelog": [
          "Upstream Linux Kernel Version from 4.4.270 to 4.4.277",
          "Enabled back 208 MHz frequency for big and little cores.",
          "DTB is now used to customize Eureka features such as CPU and GPU frequencies.",
          "DTBO is only used to disable dm-verity as from now. You can restore stock dtbo if you have slow charging issue.",
          "Added a new flashlight control driver which will fix low flashlight brightness issue",
-         "Imported latest Samsung updates from A305F R kernel source.",
+         "Imported latest Samsung updates from A307F R kernel source.",
          "Samsung A10 1.2A input charging current feature still depends on Eureka dtbo. Will fix it on next update",
  	 "Further overclocked BIG cores from 2184 MHz to 2288 MHz and LITTLE cores from 1690 MHz to 1794 MHz.",
  	 "Fixed wrongly set GPU throttling frequencies.",
- 	 "Updated WireGuard vpn driver to latest version - v1.0.20210606",
+ 	 "Updated WireGuard vpn driver to latest version - v1.0.20210606.",
  	 "Some other minor optimizations."
       ]
-    }
+      }
     
   ]
 }

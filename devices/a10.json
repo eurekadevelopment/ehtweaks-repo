@@ -69,12 +69,37 @@
   ],
   "downloads": [
     {
-      "name": "Eureka Kernel Rev 7.5",
+      "name": "Eureka Kernel Rev 7.5 (Q/R)",
       "description": "<b>Only for <i>Q Vendor Based</i> ROMs</b>",
-      "url": "https://raw.githubusercontent.com/eurekadevelopment/ehtweaks-repo/master/zips/Eureka_R7.5_A105_enforcing_Q_R.zip",
-      "md5sum": "3d3ff9c82a903c788e9e357c077ec75d",
-       "url2": "https://raw.githubusercontent.com/eurekadevelopment/ehtweaks-repo/master/zips/Eureka_R7.5_A105_permissive_Q_R.zip",
-      "md5sum2": "71f3ffb1d1c7e8fba44083f3ad103b75",
+      "url": "https://github.com/Chatur27/Eureka-Kernel-Exynos7885-Q-R/releases/download/R7.5/Eureka_R7.5_A105_enforcing_Q_R.zip",
+      "md5sum": "03cab27b7a97a2fdc5b397c55716b268",
+      "filename":"Eureka_R7.5_A105_enforcing_Q_R.zip",
+       "url2": "https://github.com/Chatur27/Eureka-Kernel-Exynos7885-Q-R/releases/download/R7.5/Eureka_R7.5_A105_permissive_Q_R.zip",
+      "md5sum2": "1258ed2724e3ca2b6db93cc5833297ed",
+      "filename2":"Eureka_R7.5_A105_permissive_Q_R.zip",
+      "changelog": [
+         "Upstream Linux Kernel Version from 4.4.270 to 4.4.277",
+         "Enabled back 208 MHz frequency for big and little cores.",
+         "DTB is now used to customize Eureka features such as CPU and GPU frequencies.",
+         "DTBO is only used to disable dm-verity as from now. You can restore stock dtbo if you have slow charging issue.",
+         "Added a new flashlight control driver which will fix low flashlight brightness issue",
+         "Imported latest Samsung updates from A305F R kernel source.",
+         "Samsung A10 1.2A input charging current feature still depends on Eureka dtbo. Will fix it on next update",
+ 	 "Further overclocked BIG cores from 2184 MHz to 2288 MHz and LITTLE cores from 1690 MHz to 1794 MHz.",
+ 	 "Fixed wrongly set GPU throttling frequencies.",
+ 	 "Updated WireGuard vpn driver to latest version - v1.0.20210606.",
+ 	 "Some other minor optimizations."
+      ]
+      },
+      {
+      "name": "Eureka Kernel Rev 7.5 (R)",
+      "description": "<b>Only for <i>R Vendor Based</i> ROMs</b>",
+      "url": "https://github.com/Chatur27/Eureka-Kernel-Exynos7885-Q-R/releases/download/R7.5r/Eureka_R7.5_A105_enforcing_R.zip",
+      "filename": "Eureka_R7.5_A105_enforcing_R.zip",
+      "md5sum": "13947098f470f5a43de9813ef72aefc4",
+       "url2": "https://github.com/Chatur27/Eureka-Kernel-Exynos7885-Q-R/releases/download/R7.5r/Eureka_R7.5_A105_permissive_R.zip",
+      "filename2": "Eureka_R7.5_A105_permissive_R.zip",
+      "md5sum2": "ff7e325517d0f751c31163e17987b4b6",
       "changelog": [
          "Upstream Linux Kernel Version from 4.4.270 to 4.4.277",
          "Enabled back 208 MHz frequency for big and little cores.",
