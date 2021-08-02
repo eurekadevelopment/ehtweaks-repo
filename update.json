@@ -4,7 +4,12 @@
   "url": "https://raw.githubusercontent.com/eurekadevelopment/ehtweaks-repo/master/com.kgurgul.cpuinfo_40500.apk",
   "releaseNotes": [
     "Changelog:",
-    "- Inital Release of EKM",
-    "  (Eureka Kernel Manager)"
+    "- Inital Release of EKM (Eureka Kernel Manager)",
+    "    Redesigned HkTweaks app",
+    "    Added Flashlight control",
+    "    CPU cores can be turned off (bug of HkTweaks)",
+    "    Generic Wiki implemented for FAQs",
+    "    OTA added for Eureka kernel",
+    "    Other stuffs which we forgot :)"
   ]
 }
