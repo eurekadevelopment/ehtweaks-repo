@@ -1,11 +1,18 @@
 {
   "name": "<b><font color=\"#FFFFFF\">EurekaKernel</font></b>",
   "short_description": "A kernel by <b>Eureka Team</b>",
-  "long_description": "Welcome to <b>EurekaKernel</b>! <br><br>We're kernel developers for Samsung Galaxy A10 ~ A40.",
+  "long_description": "Welcome to <b>Eureka Kernel</b> World! <br><br>We're some crazy kernel developers for Exynos7885 based devices.<br><br> Currently supported devices are: <br><br>Samsung Galaxy A10<br>Samsung Galaxy A20<br>Samsung Galaxy A20e<br>Samsung Galaxy A30<br>Samsung Galaxy A30s<br>Samsung Galaxy A40<br> <br><br>Our Team Members are:<br><br>Chatur Baij (Founder)<br>Gabriel (Co-founder)<br>Soo-Hwan Nah (Pruh Dev)<br>Chris Sunil (Noob Dev)<br>",
   "logo": "https://raw.githubusercontent.com/eurekadevelopment/ehtweaks-repo/master/logo.png",
-  "xda": "https://forum.xda-developers.com/t/kernel-custom-eureka-kernel-for-all-variants-of-galaxy-a20-a20e-for-q-based-vendor.4159529/",
+  "xda": "https://forum.xda-developers.com/t/kernel-custom-eureka-kernel-for-all-variants-of-galaxy-a20-a20e-for-q-r-based-vendor-roms.4159529/",
   "paypal": "https://www.paypal.me/chaturbaij",
   "features": [
+    {
+      "name": "CPU Frequencies",
+      "items": [
+        "BIG cores: 208 - 2288 MHz",
+        "LITTLE cores: 208 - 1794 MHz"
+      ]
+    },
     {
       "name": "CPU Governors",
       "items": [
@@ -24,6 +31,13 @@
         "interactive (Default)",
         "performance"
       ]
+    },
+    {
+      "name": "GPU Frequencies",
+      "items": [
+        "Minimum: 343 MHz",
+        "Maximum: 1300 MHz"
+      ]    
     },
     {
       "name": "GPU Governors",
@@ -45,14 +59,11 @@
       ]
     },
 	"Disabled Samsung security features",
-	"Overclocked CPU as follows: \nbig Cores: from 1768 MHz to 2184 MHz.​ \nLITTLE Cores: from 1586 MHz to 1690 MHz.​",
-	"Underclocked CPU as follows: \nbig Cores: from 936 MHz to 312 MHz.​ \nLITTLE Cores: from 839 MHz to 343 MHz.​",
 	"Added GPU thermal and voltage control",
-	"Added latest boeffla wl blocker V 1.1.0 and disabled some wakelocks",
+	"Added latest boeffla wakelock blocker v1.1.0",
 	"Network speed improvement",
 	"Enable zram support and set default compressor as lz4.",
 	"Switch to a lower charging voltage more quickly.",
-	"GPU max frequency overclocked from 845 MHz to 1300 MHz",
 	"Implemented Dynamic FSync 2.0",
 	"Implemented a custom hotplug driver to enhance battery management",
 	"Implemented Power Suspend driver",
