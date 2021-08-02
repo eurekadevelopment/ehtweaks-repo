@@ -70,7 +70,7 @@
 	"High torch brightness on custom roms",
 	"Has Spectrum support",
 	"Automatic detection of magisk",
-	"Upstreamed kernel version from 4.4.177 to 4.4.270",
+	"Upstreamed kernel version from 4.4.177 to 4.4.277",
 	"Built with Proton Clang 13 toolchain with LTO. Reason: Better performance"
   ],
   "downloads": [
