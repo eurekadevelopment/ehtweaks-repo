@@ -1,15 +1,11 @@
 {
-  "latestVersion": "1.0.0",
-  "latestVersionCode": "100",
-  "url": "https://raw.githubusercontent.com/eurekadevelopment/ehtweaks-repo/master/com.kgurgul.cpuinfo_40500.apk",
+  "latestVersion": "1.1.0",
+  "latestVersionCode": "110",
+  "url": "https://raw.githubusercontent.com/eurekadevelopment/ehtweaks-repo/master/EKManager_v1.1.0-release.apk",
   "releaseNotes": [
     "Changelog:",
-    "- Inital Release of EKM (Eureka Kernel Manager)",
-    "    Redesigned HkTweaks app",
-    "    Added Flashlight control",
-    "    CPU cores can be turned off (bug of HkTweaks)",
-    "    Generic Wiki implemented for FAQs",
-    "    OTA added for Eureka kernel",
-    "    Other stuffs which we forgot :)"
+    "-> Introduce jni for parsing device info. Its hard to implement the code on java.", 
+    "-> Fix custom flashlight value not storing after changing menu.",
+    "-> Fix profile menu editor not opening and crashing."
   ]
 }
