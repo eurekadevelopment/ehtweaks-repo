@@ -1,10 +1,10 @@
 {
-  "latestVersion": "1.1.1",
-  "latestVersionCode": "111",
+  "latestVersion": "1.1.0",
+  "latestVersionCode": "110",
   "url": "https://raw.githubusercontent.com/eurekadevelopment/ehtweaks-repo/master/EKManager_v1.1.0-release.apk",
   "releaseNotes": [
     "Changelog:",
-    "-> Introduce jni for parsing device info. Its hard to implement the code on java.", 
+    "-> Introduce jni for parsing device info to properly parse it. In java its hard to implement.", 
     "-> Fix custom flashlight value not storing after changing menu.",
     "-> Fix profile menu editor not opening and crashing."
   ]
